@@ -1,14 +1,348 @@
-*{
-	padding:0;
-	margin:0;
-	font-family:'微软雅黑';
+/*-------------样式重置-------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 微软雅黑;
 }
-div{
-	border:1px solid #FE007F;
+ul,
+ol {
+  list-style: none;
 }
-ul{
-	list-style:none;
+a,
+s,
+del,
+u,
+i,
+em,
+strong,
+b {
+  color: #333;
+  text-decoration: none;
 }
-a{
-	text-decoration:none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+em,
+strong,
+b {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: inherit;
+}
+input,
+select,
+textarea,
+button,
+a {
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+img {
+  display: block;
+  border: none;
+}
+.clear {
+  clear: both;
+}
+.clearfix:after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1200px;
+}
+.header a {
+  overflow: hidden;
+  float: left;
+  display: inline-block;
+}
+.header a img {
+  width: 382px;
+  float: left;
+  margin-top: 6px;
+}
+.header ul {
+  float: left;
+}
+.header ul .on {
+  color: #013e2a;
+  background: url(../img/header_01.png) no-repeat center;
+}
+.header ul li {
+  float: left;
+  width: 120px;
+  padding: 26px 0 28px 0;
+  margin-left: 30px;
+  background: url("../img/header_02.png") no-repeat center;
+}
+.header ul li a {
+  color: #406458;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+}
+.header ul li:first-child {
+  margin-left: 74px;
+}
+.header ul li:hover {
+  color: #013e2a;
+  background: url("../img/header_01.png") no-repeat center;
+}
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+.banner ul {
+  width: 1000%;
+  overflow: hidden;
+  position: relative;
+}
+.banner ul li {
+  width: 10%;
+  float: left;
+}
+.banner ul li a img {
+  width: 100%;
+}
+.banner ol {
+  width: 148px;
+  left: 50%;
+  bottom: 40px;
+  margin-left: -74px;
+  position: absolute;
+  overflow: hidden;
+}
+.banner ol li {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 0 12px;
+  background: url("../img/banner_click_01.png") no-repeat center;
+}
+.banner ol .on {
+  background: url("../img/banner_click_02.png") no-repeat center;
+}
+.footer {
+  background: #0bd290;
+}
+.footer .bottom {
+  overflow: hidden;
+}
+.footer .bottom ul {
+  margin-top: 66px;
+  float: left;
+}
+.footer .bottom ul li {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.footer .bottom ul li img {
+  float: left;
+  display: inline-block;
+}
+.footer .bottom ul li span {
+  line-height: 38px;
+  margin-left: 12px;
+  float: left;
+  font-size: 20px;
+  color: white;
+}
+.footer .bottom .code {
+  width: 164px;
+  height: 164px;
+  margin-top: 40px;
+  float: right;
+}
+.footer p {
+  border-top: 1px solid white;
+  text-align: center;
+  font-size: 18px;
+  color: #fcfeff;
+  line-height: 116px;
+  margin-top: 48px;
+}
+.main {
+  margin-top: 56px;
+  overflow: hidden;
+}
+.main .navigation {
+  margin-right: 50px;
+  float: left;
+  border: 1px solid #0068b7;
+  width: 216px;
+  text-align: center;
+}
+.main .navigation h1 {
+  font-size: 24px;
+  line-height: 22px;
+  padding-top: 34px;
+  background: #0068b7;
+  color: #eaecf7;
+}
+.main .navigation h1:after {
+  content: '';
+  padding-top: 4px;
+  display: block;
+  width: 46px;
+  margin: 0 auto;
+  border-bottom: 1px solid #cdcdcd;
+}
+.main .navigation h2 {
+  padding-top: 14px;
+  font-size: 18px;
+  line-height: 18px;
+  padding-bottom: 16px;
+  background: #0068b7;
+  color: #f8f8fb;
+}
+.main .navigation ul {
+  margin: 20px 0 10px 0;
+}
+.main .navigation ul .on {
+  margin-top: 0px;
+  background: url("../img/about_us_01.png") no-repeat center;
+}
+.main .navigation ul .on a {
+  color: #eff1fa;
+}
+.main .navigation ul li {
+  line-height: 28px;
+  margin-top: 5px;
+}
+.main .navigation ul li a {
+  width: 156px;
+  display: inline-block;
+  line-height: 18px;
+  color: #15161a;
+}
+.main .navigation ul li a:before {
+  content: '●';
+  font: 19px/9px '微软雅黑';
+  margin-right: 14px;
+}
+.main .navigation ul li a:after {
+  content: '>>';
+  margin-left: 14px;
+  font: 19px/9px '微软雅黑';
+}
+.main .navigation ul li:hover {
+  background: url("../img/about_us_01.png") no-repeat center;
+}
+.main .navigation ul li:hover a {
+  color: #eff1fa;
+}
+.main .profile {
+  overflow: hidden;
+}
+.main .profile .top {
+  overflow: hidden;
+  line-height: 68px;
+  margin-bottom: 46px;
+}
+.main .profile .top span {
+  padding-left: 4px;
+  font-size: 20px;
+  border-left: 2px solid #0078c6;
+}
+.main .profile .top div {
+  float: right;
+}
+.main .profile .top div h3 {
+  float: left;
+}
+.main .profile .top div a {
+  float: left;
+}
+.main .profile .top div a:hover {
+  color: #009bff;
+}
+.main .profile .top div h4 {
+  display: inline-block;
+  color: #009bff;
+}
+.main .profile .page {
+  overflow: hidden;
+  clear: both;
+  width: 492px;
+  margin: 0 auto 90px;
+}
+.main .profile .page span {
+  display: block;
+  font: 14px/24px "微软雅黑";
+  float: left;
+  color: #35383a;
+  padding-right: 3px;
+}
+.main .profile .page span + dl + span {
+  padding-left: 3px;
+  padding-right: 0px;
+}
+.main .profile .page dl {
+  float: left;
+}
+.main .profile .page dl dt {
+  width: 52px;
+  float: left;
+  border: 1px solid #a0a0a0;
+}
+.main .profile .page dl dt a {
+  display: block;
+  font: 14px/22px "微软雅黑";
+  text-align: center;
+}
+.main .profile .page dl dd {
+  float: left;
+  margin: 0 2px;
+  border: 1px solid #a0a0a0;
+}
+.main .profile .page dl dd a {
+  display: block;
+  width: 24px;
+  font: 14px/22px "微软雅黑";
+  text-align: center;
+}
+.main .profile .page dl .on {
+  border: 1px solid #0068b7;
+}
+.main .profile .page dl .on a {
+  background: #0068b7;
+  color: #f8fbfe;
+}
+.main .profile .page dl .on + dd + dd + dd {
+  border: 1px solid transparent;
+}
+.main .profile .page dl .on + dd + dd + dd + dd {
+  border: 1px solid transparent;
+}
+.main .profile .page input {
+  width: 62px;
+  height: 22px;
+  float: left;
+  color: #99a1a7;
+  text-indent: 4px;
+  margin-right: 4px;
+  font: 14px/22px '微软雅黑';
+  border: 1px solid #a0a0a0;
+}
+.main .profile .page .sure {
+  display: inline-block;
+  width: 24px;
+  font: 14px/22px "微软雅黑";
+  border: 1px solid #a0a0a0;
+  text-align: center;
 }
