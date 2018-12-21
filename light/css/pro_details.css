@@ -1,0 +1,22 @@
+.main .profile .content {
+  overflow: hidden;
+  margin-bottom: 66px;
+}
+.main .profile .content img {
+  width: 496px;
+  height: 560px;
+  margin-left: 12px;
+  float: left;
+}
+.main .profile .content ul {
+  float: left;
+  margin-left: 32px;
+}
+.main .profile .content ul li {
+  font: 22px/24px "微软雅黑";
+  margin-bottom: 24px;
+}
+.main .profile .content ul li span:first-child {
+  display: inline-block;
+  width: 130px;
+}

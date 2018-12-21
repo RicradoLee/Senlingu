@@ -1,0 +1,58 @@
+.main .profile .content {
+  overflow: hidden;
+}
+.main .profile .content .data {
+  margin: 0 auto 16px;
+  overflow: hidden;
+}
+.main .profile .content .data h2 {
+  text-align: center;
+  font-size: 18px;
+  color: #272a2d;
+}
+.main .profile .content .data span {
+  display: inline-block;
+  color: #74787b;
+  font: 12px/12px "微软雅黑";
+}
+.main .profile .content .data .left {
+  text-indent: 276px;
+  width: 528px;
+}
+.main .profile .content .text {
+  overflow: hidden;
+}
+.main .profile .content .text img {
+  width: 426px;
+  height: 374px;
+  float: left;
+  margin-right: 20px;
+}
+.main .profile .content .text p {
+  text-indent: 2em;
+  color: #35383a;
+  font-size: 14px;
+  line-height: 27px;
+}
+.main .profile .content .skip {
+  overflow: hidden;
+}
+.main .profile .content .skip a {
+  margin: 36px 0 76px;
+  color: #30363a;
+  font: 14px/12px "微软雅黑";
+}
+.main .profile .content .skip a:hover {
+  color: #1795f5;
+}
+.main .profile .content .skip a span {
+  color: #30363a;
+  display: inline-block;
+  font: 14px/12px "微软雅黑";
+}
+.main .profile .content .skip .prev {
+  float: left;
+}
+.main .profile .content .skip .next {
+  float: right;
+}

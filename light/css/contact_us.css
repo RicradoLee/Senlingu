@@ -1,0 +1,162 @@
+.main .profile .middle {
+  margin-bottom: 66px;
+}
+.main .profile .middle .map {
+  margin: 0 auto;
+  width: 1018px;
+  height: 600px;
+}
+.main .profile .middle .about {
+  width: 1018px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main .profile .middle .about form {
+  float: left;
+  margin-top: 16px;
+  width: 450px;
+}
+.main .profile .middle .about form div {
+  overflow: hidden;
+}
+.main .profile .middle .about form div h4 {
+  font: 18px/18px "微软雅黑";
+  padding-bottom: 15px;
+}
+.main .profile .middle .about form div ul li {
+  overflow: hidden;
+  border-bottom: 1px solid #a0a0a0;
+  margin-bottom: 5px;
+}
+.main .profile .middle .about form div ul li span {
+  font: 18px/30px "微软雅黑";
+  float: left;
+  color: #1e2225;
+}
+.main .profile .middle .about form div ul li .text {
+  padding: 0 6px;
+  font: 18px/30px "微软雅黑";
+  float: right;
+  border: none;
+  width: 392px;
+  text-indent: 5px;
+  color: #1e2225;
+}
+.main .profile .middle .about form div h1 {
+  float: left;
+  font: 18px/28px "微软雅黑";
+}
+.main .profile .middle .about form div textarea {
+  width: 428px;
+  height: 132px;
+  padding: 6px;
+  margin-bottom: 6px;
+}
+.main .profile .middle .about form div h2 {
+  margin-top: 3px;
+  float: left;
+  font: 18px/24px "微软雅黑";
+  display: inline-block;
+}
+.main .profile .middle .about form div .verify {
+  text-align: center;
+  text-indent: 4px;
+  margin-left: 10px;
+  margin-top: 3px;
+  float: left;
+  width: 120px;
+  line-height: 22px;
+  height: 22px;
+  border: 1px solid #a0a0a0;
+}
+.main .profile .middle .about form div img {
+  float: left;
+  margin: 0 12px;
+}
+.main .profile .middle .about form div a {
+  margin-top: 2px;
+  color: #bbb7b8;
+  border-bottom: 1px solid #a0a0a0;
+}
+.main .profile .middle .about form div .submit {
+  cursor: pointer;
+  margin-top: 20px;
+  color: #fdf9f9;
+  font-size: 20px;
+  line-height: 52px;
+  width: 156px;
+  border: none;
+  background: url("../img/contact_us_03.png") no-repeat center;
+}
+.main .profile .middle .contact {
+  width: 568px;
+  overflow: hidden;
+  margin-top: 82px;
+}
+.main .profile .middle .contact ul {
+  float: left;
+  margin-bottom: 50px;
+}
+.main .profile .middle .contact ul li {
+  overflow: hidden;
+  float: left;
+}
+.main .profile .middle .contact ul li span {
+  display: block;
+  float: left;
+  line-height: 40px;
+  color: #726e6e;
+  padding-left: 12px;
+  font: 20px/39px "微软雅黑";
+}
+.main .profile .middle .contact ul li img {
+  margin-left: 28px;
+  float: left;
+}
+.main .profile .middle .contact ul li h1 {
+  font: 18px/18px "微软雅黑";
+  display: inline-block;
+  clear: both;
+  margin: 34px 0 0 60px;
+  float: left;
+  color: #424040;
+}
+.main .profile .middle .contact ul li a {
+  clear: both;
+  cursor: pointer;
+  display: block;
+  margin-left: 24px;
+  margin-top: 40px;
+  float: left;
+  width: 188px;
+  line-height: 56px;
+  text-align: center;
+  background: url("../img/contact_us_04.png") no-repeat center;
+}
+.main .profile .middle .contact ul li a:hover {
+  background: url("../img/contact_us_05.png") no-repeat center;
+}
+.main .profile .middle .contact ul li + li {
+  margin-left: 42px;
+}
+.main .profile .middle .contact div {
+  width: 600px;
+  overflow: hidden;
+  clear: both;
+}
+.main .profile .middle .contact div .position {
+  float: left;
+  margin-left: 20px;
+}
+.main .profile .middle .contact div .address {
+  margin: 18px 0 0 10px ;
+  font: 18px/18px "微软雅黑";
+  float: left;
+  width: 532px;
+}
+.main .profile .middle .contact div .mail {
+  margin-left: 10px;
+  margin-top: 22px;
+  font: 18px/18px "微软雅黑";
+  float: left;
+}

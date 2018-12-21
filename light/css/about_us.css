@@ -1,0 +1,13 @@
+.main .profile .content {
+  padding-bottom: 90px;
+  float: left;
+  width: 914px;
+}
+.main .profile .content img {
+  width: 914px;
+  margin-bottom: 8px;
+}
+.main .profile .content p {
+  text-indent: 2em;
+  font: 14px/30px '微软雅黑';
+}
