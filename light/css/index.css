@@ -1,71 +1,154 @@
-.top:after{
-	content:'';
-	display:block;
-	clear:both;
+.middle .title h2 {
+  padding-top: 18px;
+  background: #f5f5f5;
+  font-size: 24px;
+  text-align: center;
 }
-.top{
-	background:#fff;
-	width:1200px;
-	height:104px;
-	overflow:hidden;
-	margin:0 auto;
+.middle .title h3 {
+  background: #f5f5f5;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 14px;
 }
-.top li,.top>img{
-	display:block;
-	float:left;
-	margin:0 auto;
+.middle .company {
+  margin-top: 22px;
+  margin-bottom: 24px;
+  overflow: hidden;
 }
-.top>img{
-	margin-top:6px;
+.middle .company img {
+  float: left;
+  width: 504px;
+  height: 342px;
 }
-.top li{
-	width:120px;
-	height:50px;
-	text-align:center;
-	line-height:50px;
-	background:url(../img/header_02.png) no-repeat center;;
-	border-radius:10%;
-	margin-left:30px;
-	padding:26px 0 28px;
+.middle .company p {
+  width: 636px;
+  text-indent: 2em;
+  color: #393a44;
+  font-size: 14px;
+  line-height: 23px;
+  float: right;
 }
-.top li>a{
-	font-size:16px;
-	color:#406458;
-	width:100%;
-	height:50px;
+.middle .news {
+  margin-top: 24px;
+  margin-bottom: 26px;
+  overflow: hidden;
 }
-
-.details_top{
-	text-align:center;
-} 
-.details_top>h2,.details_top>h3{
-	font-weight:normal;
+.middle .news .left {
+  float: left;
+  width: 510px;
+  background: #e7e7e7;
+  padding-top: 20px;
 }
-.details_content:after{
-	content:'';
-	display:block;
-	clear:both;
+.middle .news .left a {
+  overflow: hidden;
+  display: block;
 }
-.details_content>div{
-	width:1200px;
-	margin:0 auto;
+.middle .news .left a img {
+  width: 450px;
+  height: 298px;
+  margin: 0 auto;
 }
-.details_content img{
-	float:left;
-	width:504px;
-	height:342px;
+.middle .news .left a + a {
+  font: 18px/40px '微软雅黑';
+  color: #29336e;
 }
-.details_content p{
-	width:636px;
-	float:right;
+.middle .news .right {
+  width: 634px;
+  float: right;
 }
-
-.new_top{
-	text-align:center;
+.middle .news .right .hot {
+  overflow: hidden;
 }
-.new_top>h2,.new_top>h3{
-	font-weight:normal;
+.middle .news .right .hot .date {
+  float: left;
+  width: 78px;
+  border: 2px solid #04a8e6;
 }
-.new_left{
-	float:left;
+.middle .news .right .hot .date h3 {
+  font-size: 30px;
+  color: #04a8e6;
+  text-align: center;
+  margin: 14px auto;
+}
+.middle .news .right .hot .date h4 {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  background: #04a8e6;
+}
+.middle .news .right .hot a {
+  display: block;
+  float: left;
+  color: #0dd28e;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.middle .news .right .hot p {
+  float: left;
+  width: 530px;
+  margin-left: 20px;
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.middle .news .right ul {
+  clear: both;
+  overflow: hidden;
+  padding-left: 20px;
+}
+.middle .news .right ul li {
+  position: relative;
+  border-bottom: 1px dashed #b5b5b5;
+}
+.middle .news .right ul li:before {
+  top: 16px;
+  content: '';
+  display: block;
+  position: absolute;
+  left: -20px;
+  width: 8px;
+  height: 10px;
+  background: url("../img/new_02.png") no-repeat center;
+}
+.middle .news .right ul li a {
+  font-size: 16px;
+  line-height: 40px;
+  display: inline;
+}
+.middle .news .right ul li span {
+  line-height: 40px;
+  float: right;
+}
+.middle .product {
+  margin-top: 30px;
+}
+.middle .product ul {
+  margin-left: 20px;
+  overflow: hidden;
+}
+.middle .product ul li {
+  float: left;
+  margin-right: 40px;
+}
+.middle .product ul li:hover span {
+  background: url("../img/product_bt_02.png") no-repeat center;
+  color: #03261b;
+}
+.middle .product ul li a {
+  display: inline-block;
+}
+.middle .product ul li a img {
+  border: 2px solid #E6E6E6;
+  width: 360px;
+  height: 286px;
+}
+.middle .product ul li a span {
+  width: 264px;
+  text-align: center;
+  line-height: 46px;
+  margin: 30px 47px;
+  display: inline-block;
+  background: url("../img/product_bt_01.png") no-repeat center;
+  color: #022c49;
 }
